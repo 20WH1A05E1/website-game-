@@ -1,0 +1,96 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+header{
+    background-image : url(bg.jpeg);
+    height : 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px; 
+}
+ul li{
+    display: inline-block ;
+}
+ul li a{
+    text-decoration: none;
+    color : darkslategray;
+    padding :5px 20px;
+    border : 1px solid whitesmoke;
+    transition:0.6s ease;
+}
+ul li a:hover{
+     background-color: whitesmoke;
+     color:black;
+}
+ul li.active a{
+    background-color: whitesmoke;
+    color:black;
+}
+.main{
+    max-width: 1200px;
+    margin : auto;
+}
+.title{
+    position : absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.title h1{
+    color:darkslategray;
+    font-size: 70p;
+}
+.title h4{
+    color:darkslategray;
+    font-size: 70p;
+}
+.about{
+    position:absolute;
+    top:40%;
+    left:40%;
+    transform:translate(-50%,-50%);
+}
+.about h1{
+    color:darkslategray;
+    font-size: 80p;
+}
+.about h4{
+    color:darkslategray;
+    font-size: 80p;
+}
+.skills{
+    position : absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.skills h1{
+    color:darkslategray;
+    font-size: 70p;
+}
+.skills h4{
+    color:darkslategray;
+    font-size: 70p;
+}
+.contact{
+    position : absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.contact h1{
+    color:darkslategray;
+    font-size: 70p;
+}
+.image{
+    position :absolute;
+    top:50%;
+    right :5%;
+    transform:translate(-50%,-50%);
+}
